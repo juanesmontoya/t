@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "ff4e32a6-64c5-49e1-9836-4e7e387cb8f7",
+		"name": "electiva2_taller1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14591610"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/tinder/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/tinder/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/tinder/user?username=test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tinder/user?username=test",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tinder",
+						"user"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/tinder/user?fullname=test tres&username=test3&email=test3@test.com&password=test3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tinder/user?fullname=test tres&username=test3&email=test3@test.com&password=test3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tinder",
+						"user"
+					],
+					"query": [
+						{
+							"key": "fullname",
+							"value": "test tres"
+						},
+						{
+							"key": "username",
+							"value": "test3"
+						},
+						{
+							"key": "email",
+							"value": "test3@test.com"
+						},
+						{
+							"key": "password",
+							"value": "test3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/tinder/user?fullname=test tres&username=test3&email=test3@test.com&password=test3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tinder/user?fullname=test tres&username=test3&email=test3@test.com&password=test3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tinder",
+						"user"
+					],
+					"query": [
+						{
+							"key": "fullname",
+							"value": "test tres"
+						},
+						{
+							"key": "username",
+							"value": "test3"
+						},
+						{
+							"key": "email",
+							"value": "test3@test.com"
+						},
+						{
+							"key": "password",
+							"value": "test3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
